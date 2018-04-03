@@ -1,4 +1,4 @@
-package ualberta.madiz.liveboxcam;
+package ualberta.madiz.liveboxcam.services;
 
 import android.app.IntentService;
 import android.bluetooth.BluetoothAdapter;
