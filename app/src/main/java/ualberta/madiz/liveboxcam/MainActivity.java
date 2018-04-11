@@ -423,6 +423,7 @@ public class MainActivity extends AppCompatActivity implements TextureView.Surfa
     * */
     @Override
     public void onClick(View view) {
+        //new ImageSendAsyncTask().execute(imageFrame);
         if(!started){
             Intent bleService = new Intent(this, BluetoothDiscoveryService.class);
             startService(bleService);

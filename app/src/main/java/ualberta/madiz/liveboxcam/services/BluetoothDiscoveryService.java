@@ -29,7 +29,8 @@ import ualberta.madiz.liveboxcam.entities.Beacon;
  */
 public class BluetoothDiscoveryService extends IntentService {
     private static final String TAG = "BluetoothDiscoverService";
-    private static final int SCAN_PER = 10000; //milliseconds
+    private static final long SCAN_PER = 10000; //milliseconds
+    private static final long WAIT_PER = 5000;
     private static final String DEVICE_ADDR = "CB:4C:16:08:10:07";
     private BluetoothAdapter mAdapter;
     private BluetoothManager bluetoothManager;
@@ -75,7 +76,8 @@ public class BluetoothDiscoveryService extends IntentService {
                 Log.d(TAG, "Exists in visited");
             } else {
                 //if not start data fetch
-                new ConnectionAsyncTask().execute(temp);
+                Log.d(TAG, "Start request");
+                new ConnectionAsyncTask(getApplicationContext()).execute(temp);
             }
         }
 
@@ -93,23 +95,32 @@ public class BluetoothDiscoveryService extends IntentService {
             Log.d(TAG, "Error:"+errorCode);
         }
     };
-    private void scanDevice(final boolean enable){
-        if(enable){
-            mHandler.postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    if(isScanning){
-                        isScanning = false;
-                        mScanner.stopScan(myCallback);
-                    }
-                }
-            }, SCAN_PER);
+
+    private Runnable scan = new Runnable() {
+        @Override
+        public void run() {
             if(!isScanning){
                 isScanning = true;
                 mScanner.startScan(Collections.singletonList(customFilter.build()),
                         customSettings.build(), myCallback);
-                /*mScanner.startScan(myCallback);*/
             }
+            mHandler.postDelayed(stop, SCAN_PER);
+        }
+    };
+
+    private Runnable stop = new Runnable() {
+        @Override
+        public void run() {
+            if(isScanning){
+                isScanning = false;
+                mScanner.stopScan(myCallback);
+            }
+            mHandler.postDelayed(scan, WAIT_PER);
+        }
+    };
+    private void scanDevice(final boolean enable){
+        if(enable){
+            mHandler.post(scan);
         }
     }
 

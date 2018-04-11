@@ -1,5 +1,7 @@
 package ualberta.madiz.liveboxcam.services;
 
+import android.util.Log;
+
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
@@ -7,8 +9,9 @@ import java.util.List;
 import ualberta.madiz.liveboxcam.entities.Beacon;
 
 class BLECollector {
+    private static final String TAG = "BluetoothCollector";
     private static final BLECollector ourInstance = new BLECollector();
-    private static final long ACTIVE_PERIOD= 60000;
+    private static final long ACTIVE_PERIOD = 60000;
     private List<Beacon> visitedBeacons;
     static BLECollector getInstance() {
         return ourInstance;
@@ -20,7 +23,8 @@ class BLECollector {
 
     private int contains(Beacon discoveredDevice){
         for(Beacon b : visitedBeacons){
-            if(b.getAddress() == discoveredDevice.getAddress()){
+            if(b.getAddress().equalsIgnoreCase(discoveredDevice.getAddress())){
+                Log.d(TAG, "Present");
                 return visitedBeacons.indexOf(b);
             }
         }
@@ -31,10 +35,15 @@ class BLECollector {
     */
     public boolean updateBeacon(Beacon discoveredDevice){
         int containsIndex = -1;
-        if((containsIndex = contains(discoveredDevice)) > 0){
-            Beacon temp = visitedBeacons.get(containsIndex);
-            if(temp.isSleeping()){
+        Log.d(TAG, "Update");
 
+        if((containsIndex = contains(discoveredDevice)) >= 0){
+            Beacon temp = visitedBeacons.get(containsIndex);
+            Log.d(TAG, containsIndex+"-> Index");
+            if(temp.isSleeping()){
+                temp.setTime(Calendar.getInstance().getTimeInMillis());
+                temp.setToSleep(false);
+                return false;
             } else {
                 long timeSeen = temp.getTime();
                 long now = Calendar.getInstance().getTimeInMillis();
