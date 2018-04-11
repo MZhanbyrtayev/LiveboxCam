@@ -57,8 +57,8 @@ public class MainActivity extends AppCompatActivity implements TextureView.Surfa
     private static final String TAG = "MainActivity";
     private static final int BLUETOOTH_CODE = 66;
     private static final int PERMISSION_CODE = 77;
-    private static final int MAX_HEIGHT = 224;//def 720
-    private static final int MAX_WIDTH = 224;//def 1280
+    private static final int MAX_HEIGHT = 720;//def 720
+    private static final int MAX_WIDTH = 1280;//def 1280
 
     //Visual Component
     private CameraManager cameraManager;
@@ -78,6 +78,7 @@ public class MainActivity extends AppCompatActivity implements TextureView.Surfa
     private Image.Plane green;
     private Image.Plane red;
     private StreamConfigurationMap map;
+    private Handler periodicHandler;
     private BaseLoaderCallback callbackInterface = new BaseLoaderCallback(this) {
         @Override
         public void onManagerConnected(int status) {
@@ -102,7 +103,24 @@ public class MainActivity extends AppCompatActivity implements TextureView.Surfa
     private boolean enable;
     private boolean hasStartedTransmission;
 
+    private final Runnable r = new Runnable() {
+        @Override
+        public void run() {
+            enable = true;
+            try{
+                Log.d(TAG, "Start");
+                //imageFrame = ImageUtils.convertToMat(lastImage,  true);
+                //Log.d("OpenCVops", "H: "+imageFrame.height()+" , W:"+imageFrame.width());
+                enable=!(new ImageSendAsyncTask().execute(imageFrame).get());
 
+                Log.d("imageSendAsyncTask", "Enabled:"+enable);
+
+            } catch (Exception e){
+                Log.d(TAG, e.getMessage());
+            }
+            //periodicHandler.postDelayed(r,3000);
+        }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -123,6 +141,9 @@ public class MainActivity extends AppCompatActivity implements TextureView.Surfa
                 getApplicationContext(), callbackInterface)){
             Log.d(TAG, "Cannot connect to OpenCV manager");
         }
+
+       /* periodicHandler = new Handler();
+        periodicHandler.postDelayed(r,  5000);*/
     }
     // Image Reader callback
     private final ImageReader.OnImageAvailableListener imageReaderListener =
@@ -132,24 +153,12 @@ public class MainActivity extends AppCompatActivity implements TextureView.Surfa
             //TODO:
             lastImage = imageReader.acquireNextImage();
 
-
-            if(enable){
-                Log.d("ImageSendAsyncTask", "Enable true");
-                try{
-                    imageFrame = ImageUtils.convertToMat(lastImage,  true);
-                    //Log.d("OpenCVops", "H: "+imageFrame.height()+" , W:"+imageFrame.width());
-                    if(!hasStartedTransmission){
-                        hasStartedTransmission = true;
-
-                        enable=!(new ImageSendAsyncTask().execute(imageFrame).get());
-                        hasStartedTransmission = false;
-                    }
-                    Log.d("imageSendAsyncTask", "Enabled:"+enable);
-
-                } catch (Exception e){
-                    Log.d(TAG, e.getMessage());
-                }
+            try {
+                imageFrame = ImageUtils.convertToMat(lastImage, true);
+            } catch (Exception e) {
+                e.printStackTrace();
             }
+
             /*Imgproc.cvtColor(imageFrame,imageFrame,Imgproc.COLOR_YUV2BGR);
             Imgproc.cvtColor(imageFrame, imageFrame, Imgproc.COLOR_BGR2GRAY);
             Imgproc.adaptiveThreshold(imageFrame, imageFrame,255,Imgproc.ADAPTIVE_THRESH_GAUSSIAN_C,Imgproc.THRESH_BINARY,51,0);*/
@@ -333,7 +342,6 @@ public class MainActivity extends AppCompatActivity implements TextureView.Surfa
         } else {
             surfaceView.setSurfaceTextureListener(this);
         }
-
         if (!OpenCVLoader.initDebug()) {
             Log.d(TAG, "Internal OpenCV library not found. Using OpenCV Manager for initialization");
             OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_3_4_0, this, callbackInterface);
@@ -422,8 +430,6 @@ public class MainActivity extends AppCompatActivity implements TextureView.Surfa
         } else {
             Toast.makeText(getApplicationContext(),"Already scanning", Toast.LENGTH_SHORT).show();
         }
-        enable = true;
-
     }
 
     /*****************************/

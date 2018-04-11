@@ -9,6 +9,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.opencv.core.Mat;
 import org.opencv.core.MatOfKeyPoint;
+import org.opencv.features2d.DescriptorExtractor;
 import org.opencv.features2d.FastFeatureDetector;
 import org.opencv.features2d.FeatureDetector;
 
@@ -25,8 +26,9 @@ import java.net.URL;
 import ualberta.madiz.liveboxcam.utils.ImageUtils;
 
 public class ImageSendAsyncTask extends AsyncTask<Mat, Void, Boolean> {
-    private static final String TAG = "imageSendAsyncTask";
-    private static final String serverURL = "http://172.20.158.84:8000/stories/compareImage/";
+    private static final String TAG = "newTag";
+    private static final String serverURL = "http://192.168.1.102:8000/stories/compareImage/";
+    // /*"*/;
     private static final String defaultJSON = "{Data: Empty}";
     @Override
     protected void onPostExecute(Boolean finished) {
@@ -37,18 +39,20 @@ public class ImageSendAsyncTask extends AsyncTask<Mat, Void, Boolean> {
     protected Boolean doInBackground(Mat... mats) {
         Log.d(TAG, "Started");
         FeatureDetector featureDetector;
+        DescriptorExtractor descriptorExtractor = DescriptorExtractor.create(DescriptorExtractor.ORB);
         MatOfKeyPoint keyPoints = new MatOfKeyPoint();
+        Mat descriptors = new Mat();
         featureDetector = FeatureDetector.create(FeatureDetector.ORB);
         featureDetector.detect(mats[0], keyPoints);
-        Log.d("OpenCVops", "Number of KeyPoints: "+keyPoints.toArray().length);
+        descriptorExtractor.compute(mats[0], keyPoints, descriptors);
+        //Log.d("OpenCVops", "Number of KeyPoints: "+keyPoints.toArray().length);
         try{
-            JSONObject myObject = new JSONObject();
             URL url = new URL(serverURL);
             HttpURLConnection connection = (HttpURLConnection)url.openConnection();
             connection.setDoOutput(true);
             OutputStream stream = new BufferedOutputStream(connection.getOutputStream());
 
-            stream.write(ImageUtils.keypointsToJSON(keyPoints).toString().getBytes());
+            stream.write(ImageUtils.matToJSON(descriptors).toString().getBytes());
             stream.flush();
 
             InputStreamReader responseStream = new InputStreamReader(connection.getInputStream());
@@ -57,7 +61,7 @@ public class ImageSendAsyncTask extends AsyncTask<Mat, Void, Boolean> {
             Log.d(TAG, response);
             Log.d(TAG, "finished");
             connection.disconnect();
-        } catch (JSONException | IOException e){
+        } catch (IOException |JSONException e){
             Log.d(TAG, "Not called: " + e.getMessage());
         }
 

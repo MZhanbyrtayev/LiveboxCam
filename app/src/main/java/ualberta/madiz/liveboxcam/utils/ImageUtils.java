@@ -43,25 +43,21 @@ public class ImageUtils {
         result.put("Keypoints", array);
         return result;
     }
-    public static JSONObject matToJSON(Mat input){
+    public static JSONObject matToJSON(Mat input) throws JSONException{
         JSONObject result = new JSONObject();
-        try{
-            Size shape = input.size();
-            int height = (int)shape.height;
-            int width = (int) shape.width;
-            JSONObject matrix = new JSONObject();
-            double[] blue = new double[width];
-            for(int row = 0; row < height; row++){
-                for(int col = 0; col< width; col++){
-                    blue[col] = input.get(row, col)[0];
-                }
-                matrix.put("Row"+row, new JSONArray(Arrays.asList(blue)));
+        Size shape = input.size();
+        int height = (int)shape.height;
+        int width = (int) shape.width;
+        JSONObject matrix = new JSONObject();
+        Log.d(TAG, "height: "+height+", width:"+width);
+        double[] blue = new double[width];
+        for(int row = 0; row < height; row++){
+            for(int col = 0; col< width; col++){
+                blue[col] = input.get(row, col)[0];
             }
-            result.put("Matrix", matrix);
-        }catch (JSONException jsonEx){
-            Log.d(TAG, "Something wrong with the JSON");
+            matrix.put("Row"+row, new JSONArray(Arrays.asList(blue)));
         }
-
+        result.put("Matrix", matrix);
         return result;
     }
     /*
@@ -75,18 +71,20 @@ public class ImageUtils {
         int rowStride;
         int pixelStride;
         ByteBuffer mBuffer;
+        Log.d(TAG, "Starting conversion");
         Image.Plane yPlane = image.getPlanes()[0];
         Image.Plane uPlane = image.getPlanes()[1];
         Image.Plane vPlane = image.getPlanes()[2];
         int planeSize = yPlane.getBuffer().remaining();
         int uPlaneSize = uPlane.getBuffer().remaining();
         int vPlaneSize = vPlane.getBuffer().remaining();
-
+        Log.d(TAG, "Has started conversion");
         if(isGray){
             byte[] data = new byte[planeSize];
             yPlane.getBuffer().get(data, 0, planeSize);
             Mat grayMat = new Mat(height,width,CvType.CV_8UC1);
             grayMat.put(0,0,data);
+            Log.d(TAG, "Gray mat produced");
             return grayMat;
         } else {
             if(uPlane.getPixelStride() == 1){

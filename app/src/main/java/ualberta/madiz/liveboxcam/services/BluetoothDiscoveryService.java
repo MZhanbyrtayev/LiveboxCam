@@ -5,13 +5,19 @@ import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothManager;
 import android.bluetooth.le.BluetoothLeScanner;
 import android.bluetooth.le.ScanCallback;
+import android.bluetooth.le.ScanFilter;
 import android.bluetooth.le.ScanResult;
+import android.bluetooth.le.ScanSettings;
 import android.content.Intent;
 import android.content.Context;
 import android.os.Handler;
 import android.util.Log;
 
+import java.net.ConnectException;
+import java.util.Collections;
 import java.util.List;
+
+import ualberta.madiz.liveboxcam.entities.Beacon;
 
 
 /**
@@ -24,12 +30,14 @@ import java.util.List;
 public class BluetoothDiscoveryService extends IntentService {
     private static final String TAG = "BluetoothDiscoverService";
     private static final int SCAN_PER = 10000; //milliseconds
-
+    private static final String DEVICE_ADDR = "CB:4C:16:08:10:07";
     private BluetoothAdapter mAdapter;
     private BluetoothManager bluetoothManager;
     private BluetoothLeScanner mScanner;
     private boolean isScanning;
     private Handler mHandler;
+    private ScanFilter.Builder customFilter;
+    private ScanSettings.Builder customSettings;
 
     @Override
     public void onCreate() {
@@ -38,6 +46,14 @@ public class BluetoothDiscoveryService extends IntentService {
             bluetoothManager = (BluetoothManager) getSystemService(Context.BLUETOOTH_SERVICE);
             mAdapter = bluetoothManager.getAdapter();
             mScanner = mAdapter.getBluetoothLeScanner();
+            //ADD filter to listen certain mac address
+            // TODO: NEEDS to be changed for SERVICE UUID
+            // TODO: Service UUID to be managed at the beacon config
+            customFilter = new ScanFilter.Builder();
+            customFilter.setDeviceAddress(DEVICE_ADDR);
+            customSettings = new ScanSettings.Builder();
+            customSettings.setCallbackType(1);
+            customSettings.build();
         }
     }
 
@@ -52,6 +68,15 @@ public class BluetoothDiscoveryService extends IntentService {
         public void onScanResult(int callbackType, ScanResult result) {
             super.onScanResult(callbackType, result);
             Log.d(TAG, "Callback type: " + callbackType + ", Result: " + result.toString());
+            //Check if this item was scanned before
+            Beacon temp = new Beacon(result.getDevice());
+            if(BLECollector.getInstance().updateBeacon(temp)){
+                //if yes proceed further
+                Log.d(TAG, "Exists in visited");
+            } else {
+                //if not start data fetch
+                new ConnectionAsyncTask().execute(temp);
+            }
         }
 
         @Override
@@ -81,7 +106,9 @@ public class BluetoothDiscoveryService extends IntentService {
             }, SCAN_PER);
             if(!isScanning){
                 isScanning = true;
-                mScanner.startScan(myCallback);
+                mScanner.startScan(Collections.singletonList(customFilter.build()),
+                        customSettings.build(), myCallback);
+                /*mScanner.startScan(myCallback);*/
             }
         }
     }
