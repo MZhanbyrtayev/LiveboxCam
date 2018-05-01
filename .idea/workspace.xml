@@ -12,831 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b69f6ab-e13a-4057-9aea-799a2a417781" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/graphics/CustomGLSurface.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/graphics/CustomRenderer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/graphics/RectangleFrame.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/services/MediaService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libopencv_calib3d.a" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libopencv_core.a" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libopencv_features2d.a" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libopencv_flann.a" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libopencv_highgui.a" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libopencv_imgcodecs.a" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libopencv_imgproc.a" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libopencv_ml.a" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libopencv_objdetect.a" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libopencv_photo.a" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libopencv_shape.a" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libopencv_stitching.a" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libopencv_superres.a" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libopencv_video.a" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libopencv_videoio.a" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libopencv_videostab.a" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/MainActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/services/AudioService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/services/ConnectionAsyncTask.java" afterPath="$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/services/ConnectionAsyncTask.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/services/ImageSendAsyncTask.java" afterPath="$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/services/ImageSendAsyncTask.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/utils/ImageUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/utils/ImageUtils.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/arm64-v8a/libIlmImf.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/arm64-v8a/libcpufeatures.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/arm64-v8a/liblibjasper.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/arm64-v8a/liblibjpeg.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/arm64-v8a/liblibpng.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/arm64-v8a/liblibprotobuf.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/arm64-v8a/liblibtiff.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/arm64-v8a/liblibwebp.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/arm64-v8a/libtbb.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/arm64-v8a/libtegra_hal.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/armeabi-v7a/libIlmImf.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/armeabi-v7a/libcpufeatures.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/armeabi-v7a/liblibjasper.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/armeabi-v7a/liblibjpeg.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/armeabi-v7a/liblibpng.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/armeabi-v7a/liblibprotobuf.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/armeabi-v7a/liblibtiff.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/armeabi-v7a/liblibwebp.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/armeabi-v7a/libtbb.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/armeabi-v7a/libtegra_hal.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/armeabi/libIlmImf.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/armeabi/libcpufeatures.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/armeabi/liblibjasper.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/armeabi/liblibjpeg.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/armeabi/liblibpng.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/armeabi/liblibprotobuf.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/armeabi/liblibtiff.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/armeabi/liblibwebp.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/armeabi/libtbb.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/armeabi/libtegra_hal.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/mips/libIlmImf.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/mips/libcpufeatures.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/mips/liblibjasper.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/mips/liblibjpeg.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/mips/liblibpng.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/mips/liblibprotobuf.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/mips/liblibtiff.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/mips/liblibwebp.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/mips/libtbb.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/mips64/libIlmImf.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/mips64/libcpufeatures.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/mips64/liblibjasper.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/mips64/liblibjpeg.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/mips64/liblibpng.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/mips64/liblibprotobuf.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/mips64/liblibtiff.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/mips64/liblibwebp.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/mips64/libtbb.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86/libIlmImf.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86/libcpufeatures.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86/libippicv.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86/libippiw.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86/libittnotify.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86/liblibjasper.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86/liblibjpeg.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86/liblibpng.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86/liblibprotobuf.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86/liblibtiff.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86/liblibwebp.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86/libtbb.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86_64/libIlmImf.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86_64/libcpufeatures.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86_64/libippicv.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86_64/libippiw.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86_64/libittnotify.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86_64/liblibjasper.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86_64/liblibjpeg.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86_64/liblibpng.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86_64/liblibprotobuf.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86_64/liblibtiff.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86_64/liblibwebp.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/3rdparty/libs/x86_64/libtbb.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/OpenCV-arm64-v8a.mk" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/OpenCV-armeabi-v7a.mk" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/OpenCV-armeabi.mk" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/OpenCV-mips.mk" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/OpenCV-mips64.mk" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/OpenCV-x86.mk" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/OpenCV-x86_64.mk" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/OpenCV.mk" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/OpenCVConfig-version.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/OpenCVConfig.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-arm64-v8a/OpenCVConfig-version.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-arm64-v8a/OpenCVConfig.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-arm64-v8a/OpenCVModules-release.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-arm64-v8a/OpenCVModules.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-armeabi-v7a/OpenCVConfig-version.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-armeabi-v7a/OpenCVConfig.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-armeabi-v7a/OpenCVModules-release.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-armeabi-v7a/OpenCVModules.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-armeabi/OpenCVConfig-version.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-armeabi/OpenCVConfig.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-armeabi/OpenCVModules-release.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-armeabi/OpenCVModules.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-mips/OpenCVConfig-version.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-mips/OpenCVConfig.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-mips/OpenCVModules-release.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-mips/OpenCVModules.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-mips64/OpenCVConfig-version.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-mips64/OpenCVConfig.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-mips64/OpenCVModules-release.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-mips64/OpenCVModules.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-x86/OpenCVConfig-version.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-x86/OpenCVConfig.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-x86/OpenCVModules-release.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-x86/OpenCVModules.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-x86_64/OpenCVConfig-version.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-x86_64/OpenCVConfig.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-x86_64/OpenCVModules-release.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/abi-x86_64/OpenCVModules.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/android.toolchain.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv/cv.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv/cv.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv/cvaux.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv/cvaux.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv/cvwimage.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv/cxcore.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv/cxcore.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv/cxeigen.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv/cxmisc.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv/highgui.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv/ml.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/calib3d.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/calib3d/calib3d.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/calib3d/calib3d_c.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/affine.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/base.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/bufferpool.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/core.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/core_c.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda.inl.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/block.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/border_interpolate.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/color.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/common.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/datamov_utils.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/detail/color_detail.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/detail/reduce.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/detail/reduce_key_val.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/detail/transform_detail.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/detail/type_traits_detail.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/detail/vec_distance_detail.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/dynamic_smem.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/emulation.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/filters.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/funcattrib.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/functional.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/limits.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/reduce.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/saturate_cast.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/scan.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/simd_functions.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/transform.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/type_traits.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/utility.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/vec_distance.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/vec_math.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/vec_traits.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/warp.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/warp_reduce.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda/warp_shuffle.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda_stream_accessor.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cuda_types.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cv_cpu_dispatch.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cv_cpu_helper.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cvdef.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cvstd.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/cvstd.inl.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/directx.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/eigen.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/fast_math.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/hal/hal.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/hal/interface.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/hal/intrin.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/hal/intrin_cpp.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/hal/intrin_neon.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/hal/intrin_sse.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/hal/intrin_vsx.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/ippasync.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/mat.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/mat.inl.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/matx.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/neon_utils.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/ocl.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/ocl_genbase.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/opengl.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/operations.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/optim.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/ovx.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/persistence.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/ptr.inl.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/saturate.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/softfloat.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/sse_utils.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/traits.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/types.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/types_c.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/utility.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/utils/filesystem.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/utils/logger.defines.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/utils/logger.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/utils/trace.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/va_intel.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/version.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/vsx_utils.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/core/wimage.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/cvconfig.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/dnn.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/dnn/all_layers.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/dnn/dict.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/dnn/dnn.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/dnn/dnn.inl.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/dnn/layer.details.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/dnn/layer.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/dnn/shape_utils.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/features2d.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/features2d/features2d.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/all_indices.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/allocator.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/any.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/autotuned_index.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/composite_index.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/config.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/defines.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/dist.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/dummy.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/dynamic_bitset.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/flann.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/flann_base.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/general.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/ground_truth.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/hdf5.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/heap.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/hierarchical_clustering_index.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/index_testing.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/kdtree_index.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/kdtree_single_index.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/kmeans_index.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/linear_index.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/logger.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/lsh_index.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/lsh_table.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/matrix.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/miniflann.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/nn_index.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/object_factory.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/params.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/random.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/result_set.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/sampling.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/saving.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/simplex_downhill.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/flann/timer.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/highgui.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/highgui/highgui.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/highgui/highgui_c.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/imgcodecs.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/imgcodecs/imgcodecs.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/imgcodecs/imgcodecs_c.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/imgcodecs/ios.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/imgproc.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/imgproc/detail/distortion_model.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/imgproc/hal/hal.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/imgproc/hal/interface.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/imgproc/imgproc.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/imgproc/imgproc_c.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/imgproc/types_c.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/ml.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/ml/ml.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/ml/ml.inl.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/objdetect.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/objdetect/detection_based_tracker.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/objdetect/objdetect.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/objdetect/objdetect_c.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/opencv.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/opencv_modules.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/photo.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/photo/cuda.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/photo/photo.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/photo/photo_c.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/shape.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/shape/emdL1.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/shape/hist_cost.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/shape/shape.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/shape/shape_distance.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/shape/shape_transformer.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/stitching.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/stitching/detail/autocalib.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/stitching/detail/blenders.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/stitching/detail/camera.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/stitching/detail/exposure_compensate.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/stitching/detail/matchers.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/stitching/detail/motion_estimators.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/stitching/detail/seam_finders.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/stitching/detail/timelapsers.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/stitching/detail/util.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/stitching/detail/util_inl.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/stitching/detail/warpers.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/stitching/detail/warpers_inl.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/stitching/warpers.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/superres.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/superres/optical_flow.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/video.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/video/background_segm.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/video/tracking.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/video/tracking_c.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/video/video.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/videoio.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/videoio/cap_ios.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/videoio/videoio.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/videoio/videoio_c.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/videostab.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/videostab/deblurring.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/videostab/fast_marching.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/videostab/fast_marching_inl.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/videostab/frame_source.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/videostab/global_motion.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/videostab/inpainting.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/videostab/log.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/videostab/motion_core.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/videostab/motion_stabilizing.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/videostab/optical_flow.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/videostab/outlier_rejection.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/videostab/ring_buffer.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/videostab/stabilizer.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/jni/include/opencv2/videostab/wobble_suppression.hpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/arm64-v8a/libopencv_calib3d.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/arm64-v8a/libopencv_core.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/arm64-v8a/libopencv_dnn.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/arm64-v8a/libopencv_features2d.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/arm64-v8a/libopencv_flann.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/arm64-v8a/libopencv_highgui.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/arm64-v8a/libopencv_imgcodecs.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/arm64-v8a/libopencv_imgproc.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/arm64-v8a/libopencv_java3.so" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libopencv_java3.so" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/arm64-v8a/libopencv_ml.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/arm64-v8a/libopencv_objdetect.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/arm64-v8a/libopencv_photo.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/arm64-v8a/libopencv_shape.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/arm64-v8a/libopencv_stitching.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/arm64-v8a/libopencv_superres.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/arm64-v8a/libopencv_video.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/arm64-v8a/libopencv_videoio.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/arm64-v8a/libopencv_videostab.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi-v7a/libopencv_calib3d.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi-v7a/libopencv_core.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi-v7a/libopencv_dnn.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi-v7a/libopencv_features2d.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi-v7a/libopencv_flann.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi-v7a/libopencv_highgui.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi-v7a/libopencv_imgcodecs.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi-v7a/libopencv_imgproc.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi-v7a/libopencv_java3.so" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi-v7a/libopencv_ml.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi-v7a/libopencv_objdetect.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi-v7a/libopencv_photo.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi-v7a/libopencv_shape.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi-v7a/libopencv_stitching.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi-v7a/libopencv_superres.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi-v7a/libopencv_video.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi-v7a/libopencv_videoio.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi-v7a/libopencv_videostab.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi/libopencv_calib3d.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi/libopencv_core.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi/libopencv_dnn.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi/libopencv_features2d.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi/libopencv_flann.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi/libopencv_highgui.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi/libopencv_imgcodecs.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi/libopencv_imgproc.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi/libopencv_java3.so" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi/libopencv_ml.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi/libopencv_objdetect.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi/libopencv_photo.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi/libopencv_shape.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi/libopencv_stitching.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi/libopencv_superres.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi/libopencv_video.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi/libopencv_videoio.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/armeabi/libopencv_videostab.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips/libopencv_calib3d.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips/libopencv_core.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips/libopencv_dnn.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips/libopencv_features2d.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips/libopencv_flann.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips/libopencv_highgui.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips/libopencv_imgcodecs.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips/libopencv_imgproc.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips/libopencv_java3.so" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips/libopencv_ml.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips/libopencv_objdetect.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips/libopencv_photo.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips/libopencv_shape.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips/libopencv_stitching.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips/libopencv_superres.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips/libopencv_video.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips/libopencv_videoio.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips/libopencv_videostab.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips64/libopencv_calib3d.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips64/libopencv_core.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips64/libopencv_dnn.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips64/libopencv_features2d.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips64/libopencv_flann.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips64/libopencv_highgui.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips64/libopencv_imgcodecs.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips64/libopencv_imgproc.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips64/libopencv_java3.so" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips64/libopencv_ml.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips64/libopencv_objdetect.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips64/libopencv_photo.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips64/libopencv_shape.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips64/libopencv_stitching.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips64/libopencv_superres.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips64/libopencv_video.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips64/libopencv_videoio.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/mips64/libopencv_videostab.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86/libopencv_calib3d.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86/libopencv_core.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86/libopencv_dnn.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86/libopencv_features2d.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86/libopencv_flann.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86/libopencv_highgui.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86/libopencv_imgcodecs.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86/libopencv_imgproc.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86/libopencv_java3.so" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86/libopencv_ml.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86/libopencv_objdetect.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86/libopencv_photo.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86/libopencv_shape.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86/libopencv_stitching.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86/libopencv_superres.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86/libopencv_video.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86/libopencv_videoio.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86/libopencv_videostab.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86_64/libopencv_calib3d.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86_64/libopencv_core.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86_64/libopencv_dnn.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86_64/libopencv_features2d.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86_64/libopencv_flann.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86_64/libopencv_highgui.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86_64/libopencv_imgcodecs.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86_64/libopencv_imgproc.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86_64/libopencv_java3.so" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86_64/libopencv_ml.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86_64/libopencv_objdetect.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86_64/libopencv_photo.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86_64/libopencv_shape.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86_64/libopencv_stitching.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86_64/libopencv_superres.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86_64/libopencv_video.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86_64/libopencv_videoio.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/libs/x86_64/libopencv_videostab.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/import-summary.txt" afterPath="$PROJECT_DIR$/import-summary.txt" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/generated/source/aidl/debug/org/opencv/engine/OpenCVEngineInterface.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/generated/source/buildConfig/debug/org/opencv/BuildConfig.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/generated/source/r/debug/org/opencv/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/attr/R.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/BuildConfig.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/AsyncServiceHelper$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/AsyncServiceHelper$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/AsyncServiceHelper$3$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/AsyncServiceHelper$3$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/AsyncServiceHelper$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/AsyncServiceHelper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/BaseLoaderCallback$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/BaseLoaderCallback$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/BaseLoaderCallback$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/BaseLoaderCallback$4.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/BaseLoaderCallback$5.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/BaseLoaderCallback$6.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/BaseLoaderCallback$7.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/BaseLoaderCallback.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/Camera2Renderer$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/Camera2Renderer$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/Camera2Renderer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/CameraBridgeViewBase$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/CameraBridgeViewBase$CvCameraViewFrame.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/CameraBridgeViewBase$CvCameraViewListener.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/CameraBridgeViewBase$CvCameraViewListener2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/CameraBridgeViewBase$CvCameraViewListenerAdapter.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/CameraBridgeViewBase$ListItemAccessor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/CameraBridgeViewBase.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/CameraGLRendererBase.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/CameraGLSurfaceView$CameraTextureListener.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/CameraGLSurfaceView.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/CameraRenderer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/FpsMeter.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/InstallCallbackInterface.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/JavaCameraView$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/JavaCameraView$CameraWorker.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/JavaCameraView$JavaCameraFrame.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/JavaCameraView$JavaCameraSizeAccessor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/JavaCameraView.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/LoaderCallbackInterface.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/OpenCVLoader.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/StaticHelper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/android/Utils.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/calib3d/Calib3d.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/calib3d/StereoBM.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/calib3d/StereoMatcher.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/calib3d/StereoSGBM.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/Algorithm.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/Core$MinMaxLocResult.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/Core.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/CvException.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/CvType.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/DMatch.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/KeyPoint.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/Mat.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/MatOfByte.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/MatOfDMatch.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/MatOfDouble.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/MatOfFloat.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/MatOfFloat4.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/MatOfFloat6.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/MatOfInt.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/MatOfInt4.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/MatOfKeyPoint.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/MatOfPoint.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/MatOfPoint2f.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/MatOfPoint3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/MatOfPoint3f.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/MatOfRect.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/MatOfRect2d.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/Point.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/Point3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/Range.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/Rect.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/Rect2d.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/RotatedRect.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/Scalar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/Size.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/TermCriteria.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/core/TickMeter.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/dnn/DictValue.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/dnn/Dnn.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/dnn/Layer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/dnn/Net.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/engine/OpenCVEngineInterface$Stub$Proxy.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/engine/OpenCVEngineInterface$Stub.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/engine/OpenCVEngineInterface.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/features2d/AKAZE.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/features2d/AgastFeatureDetector.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/features2d/BFMatcher.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/features2d/BOWImgDescriptorExtractor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/features2d/BOWKMeansTrainer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/features2d/BOWTrainer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/features2d/BRISK.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/features2d/DescriptorExtractor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/features2d/DescriptorMatcher.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/features2d/FastFeatureDetector.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/features2d/Feature2D.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/features2d/FeatureDetector.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/features2d/Features2d.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/features2d/FlannBasedMatcher.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/features2d/GFTTDetector.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/features2d/KAZE.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/features2d/MSER.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/features2d/ORB.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/features2d/Params.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/imgcodecs/Imgcodecs.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/imgproc/CLAHE.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/imgproc/Imgproc.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/imgproc/LineSegmentDetector.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/imgproc/Moments.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/imgproc/Subdiv2D.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/ml/ANN_MLP.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/ml/ANN_MLP_ANNEAL.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/ml/Boost.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/ml/DTrees.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/ml/EM.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/ml/KNearest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/ml/LogisticRegression.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/ml/Ml.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/ml/NormalBayesClassifier.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/ml/ParamGrid.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/ml/RTrees.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/ml/SVM.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/ml/SVMSGD.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/ml/StatModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/ml/TrainData.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/objdetect/BaseCascadeClassifier.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/objdetect/CascadeClassifier.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/objdetect/HOGDescriptor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/objdetect/Objdetect.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/osgi/OpenCVInterface.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/osgi/OpenCVNativeLoader.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/photo/AlignExposures.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/photo/AlignMTB.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/photo/CalibrateCRF.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/photo/CalibrateDebevec.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/photo/CalibrateRobertson.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/photo/MergeDebevec.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/photo/MergeExposures.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/photo/MergeMertens.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/photo/MergeRobertson.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/photo/Photo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/photo/Tonemap.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/photo/TonemapDrago.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/photo/TonemapDurand.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/photo/TonemapMantiuk.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/photo/TonemapReinhard.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/utils/Converters.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/video/BackgroundSubtractor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/video/BackgroundSubtractorKNN.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/video/BackgroundSubtractorMOG2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/video/DenseOpticalFlow.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/video/DualTVL1OpticalFlow.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/video/FarnebackOpticalFlow.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/video/KalmanFilter.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/video/SparseOpticalFlow.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/video/SparsePyrLKOpticalFlow.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/video/Video.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/videoio/VideoCapture.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/videoio/VideoWriter.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/classes/debug/org/opencv/videoio/Videoio.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/incremental/compileDebugAidl/dependency.store" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/incremental/packageDebugAssets/merger.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/intermediate-jars/debug/classes.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/intermediate-jars/debug/res.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/javaPrecompile/debug/annotationProcessors.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/manifests/aapt/debug/output.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/manifests/full/debug/output.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/packaged_res/debug/values/values.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/symbols/debug/R.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/lint.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/openCVLibrary340.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/aidl/org/opencv/engine/OpenCVEngineInterface.aidl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/android/AsyncServiceHelper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/android/BaseLoaderCallback.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/android/Camera2Renderer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/android/CameraBridgeViewBase.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/android/CameraGLRendererBase.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/android/CameraGLSurfaceView.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/android/CameraRenderer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/android/FpsMeter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/android/InstallCallbackInterface.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/android/JavaCameraView.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/android/LoaderCallbackInterface.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/android/OpenCVLoader.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/android/StaticHelper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/android/Utils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/calib3d/Calib3d.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/calib3d/StereoBM.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/calib3d/StereoMatcher.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/calib3d/StereoSGBM.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/Algorithm.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/Core.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/CvException.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/CvType.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/DMatch.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/KeyPoint.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/Mat.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/MatOfByte.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/MatOfDMatch.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/MatOfDouble.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/MatOfFloat.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/MatOfFloat4.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/MatOfFloat6.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/MatOfInt.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/MatOfInt4.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/MatOfKeyPoint.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/MatOfPoint.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/MatOfPoint2f.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/MatOfPoint3.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/MatOfPoint3f.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/MatOfRect.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/MatOfRect2d.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/Point.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/Point3.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/Range.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/Rect.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/Rect2d.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/RotatedRect.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/Scalar.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/Size.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/TermCriteria.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/core/TickMeter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/dnn/DictValue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/dnn/Dnn.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/dnn/Layer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/dnn/Net.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/features2d/AKAZE.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/features2d/AgastFeatureDetector.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/features2d/BFMatcher.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/features2d/BOWImgDescriptorExtractor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/features2d/BOWKMeansTrainer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/features2d/BOWTrainer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/features2d/BRISK.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/features2d/DescriptorExtractor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/features2d/DescriptorMatcher.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/features2d/FastFeatureDetector.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/features2d/Feature2D.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/features2d/FeatureDetector.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/features2d/Features2d.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/features2d/FlannBasedMatcher.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/features2d/GFTTDetector.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/features2d/KAZE.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/features2d/MSER.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/features2d/ORB.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/features2d/Params.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/imgcodecs/Imgcodecs.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/imgproc/CLAHE.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/imgproc/Imgproc.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/imgproc/LineSegmentDetector.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/imgproc/Moments.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/imgproc/Subdiv2D.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/ml/ANN_MLP.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/ml/ANN_MLP_ANNEAL.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/ml/Boost.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/ml/DTrees.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/ml/EM.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/ml/KNearest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/ml/LogisticRegression.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/ml/Ml.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/ml/NormalBayesClassifier.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/ml/ParamGrid.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/ml/RTrees.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/ml/SVM.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/ml/SVMSGD.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/ml/StatModel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/ml/TrainData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/objdetect/BaseCascadeClassifier.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/objdetect/CascadeClassifier.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/objdetect/HOGDescriptor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/objdetect/Objdetect.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/osgi/OpenCVInterface.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/osgi/OpenCVNativeLoader.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/photo/AlignExposures.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/photo/AlignMTB.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/photo/CalibrateCRF.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/photo/CalibrateDebevec.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/photo/CalibrateRobertson.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/photo/MergeDebevec.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/photo/MergeExposures.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/photo/MergeMertens.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/photo/MergeRobertson.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/photo/Photo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/photo/Tonemap.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/photo/TonemapDrago.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/photo/TonemapDurand.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/photo/TonemapMantiuk.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/photo/TonemapReinhard.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/utils/Converters.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/video/BackgroundSubtractor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/video/BackgroundSubtractorKNN.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/video/BackgroundSubtractorMOG2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/video/DenseOpticalFlow.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/video/DualTVL1OpticalFlow.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/video/FarnebackOpticalFlow.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/video/KalmanFilter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/video/SparseOpticalFlow.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/video/SparsePyrLKOpticalFlow.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/video/Video.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/videoio/VideoCapture.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/videoio/VideoWriter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/videoio/Videoio.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary340/src/main/res/values/attrs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -859,18 +37,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7766">
-              <caret line="440" column="12" lean-forward="false" selection-start-line="440" selection-start-column="12" selection-end-line="440" selection-end-column="12" />
+            <state relative-caret-position="369">
+              <caret line="421" column="8" lean-forward="false" selection-start-line="421" selection-start-column="8" selection-end-line="421" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="class#3443:3793" expanded="false" />
-                <element signature="e#4314#4371#0" expanded="false" />
-                <element signature="class#7542:8934" expanded="false" />
-                <element signature="class#9050:10476" expanded="false" />
-                <element signature="method#onOpened#0;class#9050:10476" expanded="false" />
+                <element signature="class#3377:3727" expanded="false" />
+                <element signature="e#4248#4305#0" expanded="false" />
+                <element signature="class#7239:8631" expanded="false" />
+                <element signature="class#8747:10173" expanded="false" />
+                <element signature="method#onOpened#0;class#8747:10173" expanded="false" />
+                <element signature="method#getPermission#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#onSurfaceTextureSizeChanged#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#onSurfaceTextureUpdated#0;class#MainActivity#0" expanded="false" />
@@ -879,24 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <file leaf-file-name="BLECollector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/services/BLECollector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+            <state relative-caret-position="-5">
+              <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="RectangleFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/graphics/RectangleFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="39" column="43" lean-forward="false" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+            <state relative-caret-position="484">
+              <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -904,37 +80,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MediaService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/services/MediaService.java">
+      <file leaf-file-name="BluetoothDiscoveryService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/services/BluetoothDiscoveryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="15" column="68" lean-forward="false" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+            <state relative-caret-position="748">
+              <caret line="51" column="15" lean-forward="false" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomGLSurface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/graphics/CustomGLSurface.java">
+      <file leaf-file-name="MediaService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/services/MediaService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <element signature="e#1099#1100#0" expanded="true" />
-                <element signature="e#1131#1132#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="325">
+              <caret line="35" column="65" lean-forward="true" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomRenderer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/graphics/CustomRenderer.java">
+      <file leaf-file-name="ConnectionAsyncTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/services/ConnectionAsyncTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            <state relative-caret-position="220">
+              <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
               <folding>
-                <element signature="e#806#807#0" expanded="true" />
-                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#1244#1245#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -943,8 +115,8 @@
       <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/graphics/Triangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="396">
+              <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -952,27 +124,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="ImageUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/utils/ImageUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            <state relative-caret-position="198">
+              <caret line="72" column="48" lean-forward="false" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
+              <folding>
+                <element signature="method#keypointsToJSON#0;class#ImageUtils#0" expanded="false" />
+                <element signature="method#matToJSON#0;class#ImageUtils#0" expanded="false" />
+                <element signature="method#getPoints#0;class#ImageUtils#0" expanded="false" />
+                <element signature="method#convertToMat#0;class#ImageUtils#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageSendAsyncTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/services/ImageSendAsyncTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="camera.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/camera.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="Beacon.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/entities/Beacon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+            <state relative-caret-position="594">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -4336,9 +3517,9 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/graphics/Triangle.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/graphics/CustomRenderer.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/graphics/CustomGLSurface.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -4485,6 +3666,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -4524,9 +3707,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -4746,8 +3927,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49718785" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.49718785" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -4757,7 +3939,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.49785176" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.49785176" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36220473" sideWeight="0.6374866" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36220473" sideWeight="0.6374866" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -4805,11 +3987,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#3443:3793" expanded="false" />
-            <element signature="e#4314#4371#0" expanded="false" />
-            <element signature="class#7542:8934" expanded="false" />
-            <element signature="class#9050:10476" expanded="false" />
-            <element signature="method#onOpened#0;class#9050:10476" expanded="false" />
+            <element signature="class#3377:3727" expanded="false" />
+            <element signature="e#4248#4305#0" expanded="false" />
+            <element signature="class#7239:8631" expanded="false" />
+            <element signature="class#8747:10173" expanded="false" />
+            <element signature="method#onOpened#0;class#8747:10173" expanded="false" />
+            <element signature="method#getPermission#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onSurfaceTextureSizeChanged#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onSurfaceTextureUpdated#0;class#MainActivity#0" expanded="false" />
@@ -4860,11 +4043,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#3443:3793" expanded="false" />
-            <element signature="e#4314#4371#0" expanded="false" />
-            <element signature="class#7542:8934" expanded="false" />
-            <element signature="class#9050:10476" expanded="false" />
-            <element signature="method#onOpened#0;class#9050:10476" expanded="false" />
+            <element signature="class#3377:3727" expanded="false" />
+            <element signature="e#4248#4305#0" expanded="false" />
+            <element signature="class#7239:8631" expanded="false" />
+            <element signature="class#8747:10173" expanded="false" />
+            <element signature="method#onOpened#0;class#8747:10173" expanded="false" />
+            <element signature="method#getPermission#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onSurfaceTextureSizeChanged#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onSurfaceTextureUpdated#0;class#MainActivity#0" expanded="false" />
@@ -4878,11 +4062,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#3443:3793" expanded="false" />
-            <element signature="e#4314#4371#0" expanded="false" />
-            <element signature="class#7542:8934" expanded="false" />
-            <element signature="class#9050:10476" expanded="false" />
-            <element signature="method#onOpened#0;class#9050:10476" expanded="false" />
+            <element signature="class#3377:3727" expanded="false" />
+            <element signature="e#4248#4305#0" expanded="false" />
+            <element signature="class#7239:8631" expanded="false" />
+            <element signature="class#8747:10173" expanded="false" />
+            <element signature="method#onOpened#0;class#8747:10173" expanded="false" />
+            <element signature="method#getPermission#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onSurfaceTextureSizeChanged#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onSurfaceTextureUpdated#0;class#MainActivity#0" expanded="false" />
@@ -4901,32 +4086,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/entities/BleSingleton.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/BleSingleton.java" />
     <entry file="file://$PROJECT_DIR$/openCVLibrary340/src/main/java/org/opencv/features2d/DescriptorExtractor.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/services/BLECollector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-262">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/services/BluetoothDiscoveryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="51" column="15" lean-forward="false" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/entities/CustomBinder.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/services/ConnectionAsyncTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1244#1245#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/PermissionHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -4948,21 +4108,19 @@
     <entry file="file://$PROJECT_DIR$/openCVLibrary24135/src/main/AndroidManifest.xml" />
     <entry file="file://$PROJECT_DIR$/openCVLibrary24135/build.gradle" />
     <entry file="file://$PROJECT_DIR$/openCVLibrary320/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openCVLibrary320/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4996,42 +4154,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/entities/Beacon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/services/ImageSendAsyncTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="45" column="70" lean-forward="false" selection-start-line="45" selection-start-column="70" selection-end-line="45" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/services/MediaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="68" lean-forward="false" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/utils/ImageUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#matToJSON#0;class#ImageUtils#0" expanded="false" />
-            <element signature="method#convertToMat#0;class#ImageUtils#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/camera.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -5044,14 +4166,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
@@ -5065,48 +4187,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/graphics/RectangleFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="39" column="43" lean-forward="false" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7766">
-          <caret line="440" column="12" lean-forward="false" selection-start-line="440" selection-start-column="12" selection-end-line="440" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#3443:3793" expanded="false" />
-            <element signature="e#4314#4371#0" expanded="false" />
-            <element signature="class#7542:8934" expanded="false" />
-            <element signature="class#9050:10476" expanded="false" />
-            <element signature="method#onOpened#0;class#9050:10476" expanded="false" />
-            <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onSurfaceTextureSizeChanged#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onSurfaceTextureUpdated#0;class#MainActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/graphics/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/graphics/CustomGLSurface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="330">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="e#1099#1100#0" expanded="true" />
             <element signature="e#1131#1132#0" expanded="true" />
@@ -5116,11 +4200,113 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/graphics/CustomRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        <state relative-caret-position="215">
+          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
           <folding>
             <element signature="e#806#807#0" expanded="true" />
             <element signature="e#850#851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/entities/Beacon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/services/ConnectionAsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+          <folding>
+            <element signature="e#1244#1245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/services/MediaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="35" column="65" lean-forward="true" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/services/BluetoothDiscoveryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="51" column="15" lean-forward="false" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/services/BLECollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/services/ImageSendAsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/graphics/RectangleFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/graphics/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/utils/ImageUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="72" column="48" lean-forward="false" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
+          <folding>
+            <element signature="method#keypointsToJSON#0;class#ImageUtils#0" expanded="false" />
+            <element signature="method#matToJSON#0;class#ImageUtils#0" expanded="false" />
+            <element signature="method#getPoints#0;class#ImageUtils#0" expanded="false" />
+            <element signature="method#convertToMat#0;class#ImageUtils#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ualberta/madiz/liveboxcam/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="421" column="8" lean-forward="false" selection-start-line="421" selection-start-column="8" selection-end-line="421" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#3377:3727" expanded="false" />
+            <element signature="e#4248#4305#0" expanded="false" />
+            <element signature="class#7239:8631" expanded="false" />
+            <element signature="class#8747:10173" expanded="false" />
+            <element signature="method#onOpened#0;class#8747:10173" expanded="false" />
+            <element signature="method#getPermission#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onSurfaceTextureSizeChanged#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onSurfaceTextureUpdated#0;class#MainActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>

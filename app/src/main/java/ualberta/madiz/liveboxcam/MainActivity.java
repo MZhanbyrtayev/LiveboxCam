@@ -36,8 +36,6 @@ import android.util.Size;
 import android.view.Surface;
 import android.view.TextureView;
 import android.view.View;
-import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.widget.Toast;
 
 import org.opencv.android.BaseLoaderCallback;
@@ -150,8 +148,16 @@ public class MainActivity extends AppCompatActivity implements TextureView.Surfa
             Log.d(TAG, "Cannot connect to OpenCV manager");
         }
         //Run periodic scan for object detection
-        /*periodicHandler = new Handler();
-        periodicHandler.postDelayed(r,  10000);*/
+        periodicHandler = new Handler();
+        periodicHandler.postDelayed(r,  10000);
+        //Run BLE scanning
+        if(!started){
+            Intent bleService = new Intent(this, BluetoothDiscoveryService.class);
+            startService(bleService);
+            started = true;
+        } else {
+            Toast.makeText(getApplicationContext(),"Already scanning", Toast.LENGTH_SHORT).show();
+        }
     }
     // Image Reader callback
     private final ImageReader.OnImageAvailableListener imageReaderListener =
@@ -166,14 +172,6 @@ public class MainActivity extends AppCompatActivity implements TextureView.Surfa
             } catch (Exception e) {
                 e.printStackTrace();
             }
-
-            /*Imgproc.cvtColor(imageFrame,imageFrame,Imgproc.COLOR_YUV2BGR);
-            Imgproc.cvtColor(imageFrame, imageFrame, Imgproc.COLOR_BGR2GRAY);
-            Imgproc.adaptiveThreshold(imageFrame, imageFrame,255,Imgproc.ADAPTIVE_THRESH_GAUSSIAN_C,Imgproc.THRESH_BINARY,51,0);*/
-            //YuvImage myImage =(YuvImage) imageReader.acquireNextImage();
-            //Log.d(TAG, imageFrame.get((int)imageFrame.size().height/2,
-            //(int)imageFrame.size().width/2).toString());
-            //Imgproc.resize(imageFrame,imageFrame,imageSize);
             lastImage.close();
         }
     };
@@ -418,16 +416,10 @@ public class MainActivity extends AppCompatActivity implements TextureView.Surfa
     @Override
     public void onClick(View view) {
         //new ImageSendAsyncTask().execute(imageFrame);
-        /*if(!started){
-            Intent bleService = new Intent(this, BluetoothDiscoveryService.class);
-            startService(bleService);
-            started = true;
-        } else {
-            Toast.makeText(getApplicationContext(),"Already scanning", Toast.LENGTH_SHORT).show();
-        }*/
+
         Log.d(TAG, "Check functionality onClick");
-        /*Intent audioService = new Intent(this, MediaService.class);
-        startService(audioService);*/
+        Intent audioService = new Intent(this, MediaService.class);
+        startService(audioService);
         float[] temp = ImageUtils.getPoints(imageFrame);
         if(temp != null){
             final RectangleFrame frame = new RectangleFrame(temp);
