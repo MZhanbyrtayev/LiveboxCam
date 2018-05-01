@@ -11,14 +11,20 @@ import org.opencv.core.CvType;
 import org.opencv.core.KeyPoint;
 import org.opencv.core.Mat;
 import org.opencv.core.MatOfKeyPoint;
+import org.opencv.core.MatOfPoint;
+import org.opencv.core.MatOfPoint2f;
 import org.opencv.core.Point;
 import org.opencv.core.Size;
 import org.opencv.imgproc.Imgproc;
 
 import java.nio.ByteBuffer;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+
+import ualberta.madiz.liveboxcam.graphics.RectangleFrame;
 
 public class ImageUtils {
     private static final String TAG = "ImageUtils";
@@ -62,6 +68,47 @@ public class ImageUtils {
         result.put("Height", height);
         result.put("Width", width);
         return result;
+    }
+
+    public static float[] getPoints(Mat grayMat){
+        Mat upscaled = new Mat();
+        Mat downscaled = new Mat();
+        Mat mask = new Mat();
+        Mat contrImage;
+        Mat hierarchy = new Mat();
+        MatOfPoint2f approxCurve = new MatOfPoint2f();
+        Imgproc.pyrDown(grayMat, downscaled, new Size(grayMat.cols()/2,grayMat.rows()/2));
+        Imgproc.pyrUp(downscaled,upscaled, grayMat.size());
+
+        Imgproc.Canny(upscaled,mask, 0.0f, 255.0f);
+        Imgproc.dilate(mask,  mask, new Mat(), new Point(-1,1), 1);
+        List<MatOfPoint> contrs = new ArrayList<>();
+        contrImage = mask.clone();
+        Imgproc.findContours(contrImage, contrs, hierarchy,
+                Imgproc.RETR_EXTERNAL,
+                Imgproc.CHAIN_APPROX_SIMPLE);
+
+        for(MatOfPoint map : contrs){
+            MatOfPoint2f curve = new MatOfPoint2f(map.toArray());
+            Imgproc.approxPolyDP(curve, approxCurve,
+                    0.02*Imgproc.arcLength(curve, true),true);
+
+            int numVertices = (int) approxCurve.total();
+            Log.d(TAG, "nums: "+ numVertices+", area:"+Imgproc.contourArea(map));
+            if(approxCurve.toList().size() == 4){
+                final float[] coords = new float[12];
+                int id = 0;
+                for (Point p : approxCurve.toList()) {
+                    Log.d(TAG, "Pointx: "+p.x+", Pointy: "+p.y+", str:"+p.toString());
+                    coords[id] = (float) p.x;
+                    coords[id+1] = (float) p.y;
+                    coords[id+2] = 0.0f;
+                    id = id+1;
+                }
+                return coords;
+            }
+        }
+        return null;
     }
     /*
     * The function converts captured frame from YUV_420_888 format

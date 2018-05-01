@@ -27,7 +27,7 @@ import ualberta.madiz.liveboxcam.utils.ImageUtils;
 
 public class ImageSendAsyncTask extends AsyncTask<Mat, Void, Boolean> {
     private static final String TAG = "newTag";
-    private static final String serverURL = "http://192.168.137.1:80/stories/compareImage/";
+    private static final String serverURL = "http://192.168.1.100:8000/stories/compareImage/";
     // /*"*/;
     private static final String defaultJSON = "{Data: Empty}";
     @Override
@@ -35,6 +35,7 @@ public class ImageSendAsyncTask extends AsyncTask<Mat, Void, Boolean> {
         super.onPostExecute(finished);
     }
 
+    @SuppressWarnings("Deprecated")
     @Override
     protected Boolean doInBackground(Mat... mats) {
         Log.d(TAG, "Started");

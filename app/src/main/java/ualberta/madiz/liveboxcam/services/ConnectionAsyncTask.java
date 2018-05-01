@@ -25,7 +25,7 @@ import ualberta.madiz.liveboxcam.entities.Beacon;
 import ualberta.madiz.liveboxcam.utils.ImageUtils;
 
 public class ConnectionAsyncTask extends AsyncTask<Beacon, Void, JSONObject> {
-    private static final String serverURL = "http://192.168.137.1/stories/getData/";
+    private static final String serverURL = "http://192.168.1.100:8000/stories/getData/";
     private static final String TAG = "ConnectionAsyncTask";
     private static final String CHANNEL_ID = "asd";
     private static final int notification_id = 77;

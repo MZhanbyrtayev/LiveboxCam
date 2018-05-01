@@ -28,6 +28,8 @@ so manually move them:
 * javadoc\org\opencv\android\JavaCameraView.JavaCameraSizeAccessor.html
 * javadoc\org\opencv\android\JavaCameraView.html
 * javadoc\org\opencv\android\LoaderCallbackInterface.html
+* javadoc\org\opencv\android\NativeCameraView.OpenCvSizeAccessor.html
+* javadoc\org\opencv\android\NativeCameraView.html
 * javadoc\org\opencv\android\OpenCVLoader.html
 * javadoc\org\opencv\android\Utils.html
 * javadoc\org\opencv\android\package-frame.html
@@ -41,6 +43,13 @@ so manually move them:
 * javadoc\org\opencv\calib3d\package-frame.html
 * javadoc\org\opencv\calib3d\package-summary.html
 * javadoc\org\opencv\calib3d\package-tree.html
+* javadoc\org\opencv\contrib\
+* javadoc\org\opencv\contrib\Contrib.html
+* javadoc\org\opencv\contrib\FaceRecognizer.html
+* javadoc\org\opencv\contrib\StereoVar.html
+* javadoc\org\opencv\contrib\package-frame.html
+* javadoc\org\opencv\contrib\package-summary.html
+* javadoc\org\opencv\contrib\package-tree.html
 * javadoc\org\opencv\core\
 * javadoc\org\opencv\core\Algorithm.html
 * javadoc\org\opencv\core\Core.MinMaxLocResult.html
@@ -64,12 +73,10 @@ so manually move them:
 * javadoc\org\opencv\core\MatOfPoint3.html
 * javadoc\org\opencv\core\MatOfPoint3f.html
 * javadoc\org\opencv\core\MatOfRect.html
-* javadoc\org\opencv\core\MatOfRect2d.html
 * javadoc\org\opencv\core\Point.html
 * javadoc\org\opencv\core\Point3.html
 * javadoc\org\opencv\core\Range.html
 * javadoc\org\opencv\core\Rect.html
-* javadoc\org\opencv\core\Rect2d.html
 * javadoc\org\opencv\core\RotatedRect.html
 * javadoc\org\opencv\core\Scalar.html
 * javadoc\org\opencv\core\Size.html
@@ -78,14 +85,6 @@ so manually move them:
 * javadoc\org\opencv\core\package-frame.html
 * javadoc\org\opencv\core\package-summary.html
 * javadoc\org\opencv\core\package-tree.html
-* javadoc\org\opencv\dnn\
-* javadoc\org\opencv\dnn\DictValue.html
-* javadoc\org\opencv\dnn\Dnn.html
-* javadoc\org\opencv\dnn\Layer.html
-* javadoc\org\opencv\dnn\Net.html
-* javadoc\org\opencv\dnn\package-frame.html
-* javadoc\org\opencv\dnn\package-summary.html
-* javadoc\org\opencv\dnn\package-tree.html
 * javadoc\org\opencv\engine\
 * javadoc\org\opencv\engine\package-frame.html
 * javadoc\org\opencv\engine\package-summary.html
@@ -98,19 +97,37 @@ so manually move them:
 * javadoc\org\opencv\features2d\BOWKMeansTrainer.html
 * javadoc\org\opencv\features2d\BOWTrainer.html
 * javadoc\org\opencv\features2d\BRISK.html
+* javadoc\org\opencv\features2d\DMatch.html
+* javadoc\org\opencv\features2d\DescriptorExtractor.html
 * javadoc\org\opencv\features2d\DescriptorMatcher.html
 * javadoc\org\opencv\features2d\FastFeatureDetector.html
 * javadoc\org\opencv\features2d\Feature2D.html
+* javadoc\org\opencv\features2d\FeatureDetector.html
 * javadoc\org\opencv\features2d\Features2d.html
 * javadoc\org\opencv\features2d\FlannBasedMatcher.html
 * javadoc\org\opencv\features2d\GFTTDetector.html
+* javadoc\org\opencv\features2d\GenericDescriptorMatcher.html
 * javadoc\org\opencv\features2d\KAZE.html
+* javadoc\org\opencv\features2d\KeyPoint.html
 * javadoc\org\opencv\features2d\MSER.html
 * javadoc\org\opencv\features2d\ORB.html
 * javadoc\org\opencv\features2d\Params.html
 * javadoc\org\opencv\features2d\package-frame.html
 * javadoc\org\opencv\features2d\package-summary.html
 * javadoc\org\opencv\features2d\package-tree.html
+* javadoc\org\opencv\gpu\
+* javadoc\org\opencv\gpu\DeviceInfo.html
+* javadoc\org\opencv\gpu\Gpu.html
+* javadoc\org\opencv\gpu\TargetArchs.html
+* javadoc\org\opencv\gpu\package-frame.html
+* javadoc\org\opencv\gpu\package-summary.html
+* javadoc\org\opencv\gpu\package-tree.html
+* javadoc\org\opencv\highgui\
+* javadoc\org\opencv\highgui\Highgui.html
+* javadoc\org\opencv\highgui\VideoCapture.html
+* javadoc\org\opencv\highgui\package-frame.html
+* javadoc\org\opencv\highgui\package-summary.html
+* javadoc\org\opencv\highgui\package-tree.html
 * javadoc\org\opencv\imgcodecs\
 * javadoc\org\opencv\imgcodecs\Imgcodecs.html
 * javadoc\org\opencv\imgcodecs\package-frame.html
@@ -127,15 +144,30 @@ so manually move them:
 * javadoc\org\opencv\imgproc\package-tree.html
 * javadoc\org\opencv\ml\
 * javadoc\org\opencv\ml\ANN_MLP.html
-* javadoc\org\opencv\ml\ANN_MLP_ANNEAL.html
 * javadoc\org\opencv\ml\Boost.html
+* javadoc\org\opencv\ml\CvANN_MLP.html
+* javadoc\org\opencv\ml\CvANN_MLP_TrainParams.html
+* javadoc\org\opencv\ml\CvBoost.html
+* javadoc\org\opencv\ml\CvBoostParams.html
+* javadoc\org\opencv\ml\CvDTree.html
+* javadoc\org\opencv\ml\CvDTreeParams.html
+* javadoc\org\opencv\ml\CvERTrees.html
+* javadoc\org\opencv\ml\CvGBTrees.html
+* javadoc\org\opencv\ml\CvGBTreesParams.html
+* javadoc\org\opencv\ml\CvKNearest.html
+* javadoc\org\opencv\ml\CvNormalBayesClassifier.html
+* javadoc\org\opencv\ml\CvParamGrid.html
+* javadoc\org\opencv\ml\CvRTParams.html
+* javadoc\org\opencv\ml\CvRTrees.html
+* javadoc\org\opencv\ml\CvSVM.html
+* javadoc\org\opencv\ml\CvSVMParams.html
+* javadoc\org\opencv\ml\CvStatModel.html
 * javadoc\org\opencv\ml\DTrees.html
 * javadoc\org\opencv\ml\EM.html
 * javadoc\org\opencv\ml\KNearest.html
 * javadoc\org\opencv\ml\LogisticRegression.html
 * javadoc\org\opencv\ml\Ml.html
 * javadoc\org\opencv\ml\NormalBayesClassifier.html
-* javadoc\org\opencv\ml\ParamGrid.html
 * javadoc\org\opencv\ml\RTrees.html
 * javadoc\org\opencv\ml\SVM.html
 * javadoc\org\opencv\ml\SVMSGD.html
@@ -152,12 +184,6 @@ so manually move them:
 * javadoc\org\opencv\objdetect\package-frame.html
 * javadoc\org\opencv\objdetect\package-summary.html
 * javadoc\org\opencv\objdetect\package-tree.html
-* javadoc\org\opencv\osgi\
-* javadoc\org\opencv\osgi\OpenCVInterface.html
-* javadoc\org\opencv\osgi\OpenCVNativeLoader.html
-* javadoc\org\opencv\osgi\package-frame.html
-* javadoc\org\opencv\osgi\package-summary.html
-* javadoc\org\opencv\osgi\package-tree.html
 * javadoc\org\opencv\photo\
 * javadoc\org\opencv\photo\AlignExposures.html
 * javadoc\org\opencv\photo\AlignMTB.html
@@ -185,6 +211,7 @@ so manually move them:
 * javadoc\org\opencv\video\
 * javadoc\org\opencv\video\BackgroundSubtractor.html
 * javadoc\org\opencv\video\BackgroundSubtractorKNN.html
+* javadoc\org\opencv\video\BackgroundSubtractorMOG.html
 * javadoc\org\opencv\video\BackgroundSubtractorMOG2.html
 * javadoc\org\opencv\video\DenseOpticalFlow.html
 * javadoc\org\opencv\video\DualTVL1OpticalFlow.html
@@ -220,11 +247,11 @@ Moved Files:
 Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
-* AndroidManifest.xml => openCVLibrary340\src\main\AndroidManifest.xml
-* lint.xml => openCVLibrary340\lint.xml
-* res\ => openCVLibrary340\src\main\res\
-* src\ => openCVLibrary340\src\main\java\
-* src\org\opencv\engine\OpenCVEngineInterface.aidl => openCVLibrary340\src\main\aidl\org\opencv\engine\OpenCVEngineInterface.aidl
+* AndroidManifest.xml => openCVLibrary320\src\main\AndroidManifest.xml
+* lint.xml => openCVLibrary320\lint.xml
+* res\ => openCVLibrary320\src\main\res\
+* src\ => openCVLibrary320\src\main\java\
+* src\org\opencv\engine\OpenCVEngineInterface.aidl => openCVLibrary320\src\main\aidl\org\opencv\engine\OpenCVEngineInterface.aidl
 
 Next Steps:
 -----------
