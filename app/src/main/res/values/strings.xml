@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">LiveboxCam</string>
+    <string name="channel_name">Default Channel</string>
+    <string name="channel_description">This is a default channel</string>
 </resources>

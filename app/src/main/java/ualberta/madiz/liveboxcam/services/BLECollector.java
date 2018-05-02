@@ -11,7 +11,7 @@ import ualberta.madiz.liveboxcam.entities.Beacon;
 class BLECollector {
     private static final String TAG = "BluetoothCollector";
     private static final BLECollector ourInstance = new BLECollector();
-    private static final long ACTIVE_PERIOD = 60000;
+    private static final long ACTIVE_PERIOD = 30000;
     private List<Beacon> visitedBeacons;
     static BLECollector getInstance() {
         return ourInstance;

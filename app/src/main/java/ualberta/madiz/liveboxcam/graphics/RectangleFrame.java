@@ -25,10 +25,15 @@ public class RectangleFrame {
                     "void main() {" +
                     "  gl_FragColor = vColor;" +
                     "}";
-    static float vertices[] = new float[12];
+    static float vertices[]  = {   // in counterclockwise order:
+            0.103125f, 0.9722222f, 0.0f, // top
+            0.109375f, 0.96944445f, 0.0f, // bottom left
+            0.5f, -0.311004243f, 0.0f,
+            0.5f, -0.5f, 0,0f// bottom right
+    };
     float color[] = { 0.63671875f, 0.76953125f, 0.22265625f, 1.0f };
-    public RectangleFrame(float[] coords){
-        vertices = coords;
+    public RectangleFrame(){
+        //vertices = coords;
         Log.d(TAG,"v:"+vertices.length);
         ByteBuffer bb = ByteBuffer.allocateDirect(vertices.length*4);
         bb.order(ByteOrder.nativeOrder());

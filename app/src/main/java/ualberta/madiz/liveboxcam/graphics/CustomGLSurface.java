@@ -15,7 +15,7 @@ public class CustomGLSurface extends GLSurfaceView {
         getHolder().setFormat(PixelFormat.RGBA_8888);
         mRenderer = new CustomRenderer();
         setRenderer(mRenderer);
-        setRenderMode(GLSurfaceView.RENDERMODE_WHEN_DIRTY);
+        //setRenderMode(GLSurfaceView.RENDERMODE_WHEN_DIRTY);
     }
     public CustomGLSurface(Context context, AttributeSet set){
         super(context, set);
@@ -25,10 +25,14 @@ public class CustomGLSurface extends GLSurfaceView {
         getHolder().setFormat(PixelFormat.RGBA_8888);
         mRenderer = new CustomRenderer();
         setRenderer(mRenderer);
-        setRenderMode(GLSurfaceView.RENDERMODE_WHEN_DIRTY);
+        //setRenderMode(GLSurfaceView.RENDERMODE_WHEN_DIRTY);
     }
 
     public CustomRenderer getmRenderer() {
         return mRenderer;
+    }
+
+    public void render(){
+        requestRender();
     }
 }

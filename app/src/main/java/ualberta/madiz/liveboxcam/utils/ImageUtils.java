@@ -2,7 +2,9 @@ package ualberta.madiz.liveboxcam.utils;
 
 import android.graphics.ImageFormat;
 import android.media.Image;
+import android.nfc.Tag;
 import android.util.Log;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -28,6 +30,10 @@ import ualberta.madiz.liveboxcam.graphics.RectangleFrame;
 
 public class ImageUtils {
     private static final String TAG = "ImageUtils";
+    // Should be center of screen in opencv plane coordinates
+    private static final int zeroXGL = 360;
+    private static final int zeroYGL = 640;
+
     public static JSONObject keypointsToJSON(MatOfKeyPoint keyPoints) throws JSONException {
 
         JSONObject result = new JSONObject();
@@ -85,13 +91,16 @@ public class ImageUtils {
         List<MatOfPoint> contrs = new ArrayList<>();
         contrImage = mask.clone();
         Imgproc.findContours(contrImage, contrs, hierarchy,
-                Imgproc.RETR_EXTERNAL,
+                Imgproc.RETR_LIST,
                 Imgproc.CHAIN_APPROX_SIMPLE);
-
         for(MatOfPoint map : contrs){
+            Log.d(TAG, map+" ");
+
             MatOfPoint2f curve = new MatOfPoint2f(map.toArray());
+
             Imgproc.approxPolyDP(curve, approxCurve,
                     0.02*Imgproc.arcLength(curve, true),true);
+
 
             int numVertices = (int) approxCurve.total();
             Log.d(TAG, "nums: "+ numVertices+", area:"+Imgproc.contourArea(map));
@@ -130,6 +139,7 @@ public class ImageUtils {
         if(isGray){
             byte[] data = new byte[planeSize];
             yPlane.getBuffer().get(data, 0, planeSize);
+
             Mat grayMat = new Mat(height,width,CvType.CV_8UC1);
             grayMat.put(0,0,data);
             return grayMat;
@@ -187,5 +197,17 @@ public class ImageUtils {
         result.put(0,0,data);
         return result;
         */
+    }
+
+    public static float[] convertToGLcoords(float[] opencvCoords){
+        float[] result = new float[opencvCoords.length];
+        for(int i = 0; i < opencvCoords.length/3-1; i++){
+            result[i] = (opencvCoords[i+1]-zeroYGL)/zeroYGL;
+            result[i+1] = (opencvCoords[i]-zeroXGL)/zeroXGL;
+            result[i+2] = opencvCoords[i+2];
+            Log.d(TAG, result[i]+","+result[i+1]);
+        }
+
+        return result;
     }
 }

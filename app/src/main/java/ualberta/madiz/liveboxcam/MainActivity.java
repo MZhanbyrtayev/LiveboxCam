@@ -1,7 +1,6 @@
 package ualberta.madiz.liveboxcam;
 
 import android.Manifest;
-import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothManager;
 import android.content.Context;
@@ -20,12 +19,9 @@ import android.hardware.camera2.TotalCaptureResult;
 import android.hardware.camera2.params.StreamConfigurationMap;
 import android.media.Image;
 import android.media.ImageReader;
-import android.media.MediaPlayer;
-import android.opengl.GLSurfaceView;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.support.annotation.NonNull;
-import android.support.constraint.ConstraintLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
@@ -48,8 +44,6 @@ import org.opencv.core.Mat;
 import java.util.Arrays;
 
 import ualberta.madiz.liveboxcam.graphics.CustomGLSurface;
-import ualberta.madiz.liveboxcam.graphics.RectangleFrame;
-import ualberta.madiz.liveboxcam.services.MediaService;
 import ualberta.madiz.liveboxcam.services.BluetoothDiscoveryService;
 import ualberta.madiz.liveboxcam.services.ImageSendAsyncTask;
 import ualberta.madiz.liveboxcam.utils.ImageUtils;
@@ -60,8 +54,8 @@ public class MainActivity extends AppCompatActivity implements TextureView.Surfa
     private static final String TAG = "MainActivity";
     private static final int BLUETOOTH_CODE = 66;
     private static final int PERMISSION_CODE = 77;
-    private static final int MAX_HEIGHT = 720;//def 720
-    private static final int MAX_WIDTH = 1280;//def 1280
+    private static final int MAX_HEIGHT = 360;//def 720
+    private static final int MAX_WIDTH = 640;//def 1280
     private static final int SCREEN_HEIGHT = 2392;
     private static final int SCREEN_WIDTH = 1440;
     //Visual Component
@@ -115,7 +109,7 @@ public class MainActivity extends AppCompatActivity implements TextureView.Surfa
                 Log.d(TAG, "Start");
                 //imageFrame = ImageUtils.convertToMat(lastImage,  true);
                 //Log.d("OpenCVops", "H: "+imageFrame.height()+" , W:"+imageFrame.width());
-                new ImageSendAsyncTask().execute(imageFrame).get();
+                new ImageSendAsyncTask(getApplicationContext()).execute(imageFrame).get();
 
 //                Log.d("imageSendAsyncTask", "Enabled:"+enable);
 
@@ -137,19 +131,22 @@ public class MainActivity extends AppCompatActivity implements TextureView.Surfa
         surfaceView = (TextureView) findViewById(R.id.surfaceView);
         graphicsSurfaceView = findViewById(R.id.glsurfaceview);
         graphicsSurfaceView.setVisibility(View.INVISIBLE);
+
         cameraManager = (CameraManager) getSystemService(CAMERA_SERVICE);
         getPermission();
         surfaceView.setSurfaceTextureListener(this);
         enable = false;
         hasStartedTransmission = false;
         //Load OpenCV functions
-        if(!OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_2_4_13,
+        if(!OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_3_2_0,
                 this, callbackInterface)){
             Log.d(TAG, "Cannot connect to OpenCV manager");
         }
         //Run periodic scan for object detection
+/*
         periodicHandler = new Handler();
         periodicHandler.postDelayed(r,  10000);
+*/
         //Run BLE scanning
         if(!started){
             Intent bleService = new Intent(this, BluetoothDiscoveryService.class);
@@ -165,14 +162,16 @@ public class MainActivity extends AppCompatActivity implements TextureView.Surfa
         @Override
         public void onImageAvailable(ImageReader imageReader) {
             //TODO:
-            lastImage = imageReader.acquireNextImage();
+            lastImage = imageReader.acquireLatestImage();
 
             try {
                 imageFrame = ImageUtils.convertToMat(lastImage, true);
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            lastImage.close();
+            if(lastImage!=null){
+                lastImage.close();
+            }
         }
     };
     /*
@@ -322,6 +321,7 @@ public class MainActivity extends AppCompatActivity implements TextureView.Surfa
         super.onPause();
         closeCamera();
         stopThreads();
+        graphicsSurfaceView.onPause();
         Log.d("Lifecycle", "pause");
     }
 
@@ -336,11 +336,12 @@ public class MainActivity extends AppCompatActivity implements TextureView.Surfa
         }
         if (!OpenCVLoader.initDebug()) {
             Log.d(TAG, "Internal OpenCV library not found. Using OpenCV Manager for initialization");
-            OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_2_4_13, this, callbackInterface);
+            OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_3_2_0, this, callbackInterface);
         } else {
             Log.d(TAG, "OpenCV library found inside package. Using it!");
             callbackInterface.onManagerConnected(LoaderCallbackInterface.SUCCESS);
         }
+        graphicsSurfaceView.onResume();
         Log.d("Lifecycle", "resume");
     }
     private void openCamera(){
@@ -357,8 +358,7 @@ public class MainActivity extends AppCompatActivity implements TextureView.Surfa
             imageSize = map.getOutputSizes(SurfaceTexture.class)[0];
 
             cameraManager.openCamera(cameraId, mStateCallback, backgroundHandler);
-            imageReader = ImageReader.newInstance(
-                    MAX_WIDTH,MAX_HEIGHT,ImageFormat.YUV_420_888, 1);
+            imageReader = ImageReader.newInstance(MAX_WIDTH,MAX_HEIGHT,ImageFormat.YUV_420_888,2);
             imageReader.setOnImageAvailableListener(imageReaderListener, backgroundHandler);
         }catch (CameraAccessException | SecurityException exceptions){
             Log.d(TAG, "Exception"+exceptions.getMessage());
@@ -413,28 +413,34 @@ public class MainActivity extends AppCompatActivity implements TextureView.Surfa
     /*
     * On Click listener callback implementation
     * */
+
+    private float[] custom = {
+            -0.046875f,0.7f,0.f,
+            -0.04375f,0.76666665f,0.f,
+            -0.00625f,0.70555556f,0.f
+    };
     @Override
     public void onClick(View view) {
-        //new ImageSendAsyncTask().execute(imageFrame);
 
         Log.d(TAG, "Check functionality onClick");
-        Intent audioService = new Intent(this, MediaService.class);
-        startService(audioService);
-        float[] temp = ImageUtils.getPoints(imageFrame);
-        if(temp != null){
-            final RectangleFrame frame = new RectangleFrame(temp);
-            graphicsSurfaceView.setVisibility(View.VISIBLE);
+//        Intent audioService = new Intent(this, MediaService.class);
+//        startService(audioService);
 
-            graphicsSurfaceView.getLayoutParams().height = SCREEN_HEIGHT/MAX_HEIGHT*((int)temp[0]);
-            graphicsSurfaceView.getLayoutParams().width  = SCREEN_WIDTH/MAX_WIDTH*((int)temp[1]);
+        float[] temp = ImageUtils.getPoints(imageFrame);
+
+        /*if(temp != null){
+            //final RectangleFrame frame = new RectangleFrame(ImageUtils.convertToGLcoords(temp));
+            graphicsSurfaceView.setVisibility(View.VISIBLE);
+            graphicsSurfaceView.getmRenderer().setmTriangle(new Triangle(custom));
+            graphicsSurfaceView.render();
+            *//*graphicsSurfaceView.getLayoutParams().height = SCREEN_HEIGHT/MAX_HEIGHT*((int)temp[0]);
+            graphicsSurfaceView.getLayoutParams().width  = SCREEN_WIDTH/MAX_WIDTH*((int)temp[1]);*//*
 
             //Log.d(TAG, "size: "+mgr.getDefaultDisplay().getWidth()+", "+ mgr.getDefaultDisplay().getHeight());
             //graphicsSurfaceView.setBackgroundColor(0);
-            
             Log.d(TAG, "Drawing");
-        }
-
-
+        }*/
+        new ImageSendAsyncTask(getApplicationContext()).execute(imageFrame);
 
     }
 
